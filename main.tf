@@ -10,8 +10,7 @@ terraform {
 
 provider "aws" {
         region = "us-east-1" 
-        
-	}
+    }
 
 resource "aws_instance" "swapnainfra" {
 	ami = "ami-098e39bafa7e7303d" 
